@@ -1,0 +1,151 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Konkhmer Sleokchher', cursive;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+    background-image: url(images/underwater-scene-happy-untouched-ocean-life-generative-ai.jpg);
+}
+.small{
+    font-size: 40px;
+}
+.logo{
+    width: 400px;
+    cursor: pointer;
+    padding-top: 50px;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    left:8%
+   
+}  
+h1{
+    font-size: 95px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+.side-bar{
+    width: 70px;
+    height: 100vh;
+    background:linear-gradient(#80d8f5, #1b2b79);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu{
+    display: block;
+    width: 20px; 
+    margin: 40px auto 0;
+   cursor: pointer;
+   padding-right: 9px;
+   
+   
+}
+.social-links img{
+    width:35px;
+    
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 4px auto ;
+}
+.social-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    
+   
+}
+.Bubbles img{
+ width: 80px;
+ animation: Bubbles 7s linear infinite;
+}
+.Bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes Bubbles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+       
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.Bubbles img:nth-child(1){
+    animation-delay: 1s;
+}
+.Bubbles img:nth-child(2){
+    animation-delay: 1.5s;
+}
+.Bubbles img:nth-child(3){
+    animation-delay: 2.5s;
+}
+.Bubbles img:nth-child(4){
+    width: 80px;
+    animation-delay: 3s;
+}
+.Bubbles img:nth-child(5){
+    width: 40px;
+    animation-delay: 3.5;
+}
+.Bubbles img:nth-child(6){
+    width: 30px;
+    animation-delay: .5s;
+}
+.Bubbles img:nth-child(7){
+    animation-delay: 4s;
+}
+
+
+
+
+
+
+
